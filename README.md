@@ -45,8 +45,7 @@ running native code. Runtime/API availability remains the publisher's responsibi
 6. Submit a reviewed change. Do not replace an already-published version's bytes.
    Remove a bad entry instead of pretending to remotely uninstall existing users' code.
 
-Full protocol and networking rules:
-[Plugin repository v1](https://github.com/Aurora-Nasa-1/CPPlayer-KMP/blob/main/docs/dev/PLUGIN_REPOSITORY_DESIGN.md).
+Full protocol and networking rules: [Plugin repository v1](PROTOCOL.md).
 
 ## Format
 
