@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "name": "CPPlayer Plugins",
+  "plugins": [
+    {
+      "id": "netease-cloudmusic-rs",
+      "kind": "provider",
+      "name": "NeteaseCloudMusicApi-RS",
+      "version": "1.1.1",
+      "author": "Aurora-Nasa-1",
+      "description": "Community NetEase Cloud Music provider. Native JNI package; install only if you trust its publisher.",
+      "homepage": "https://github.com/Aurora-Nasa-1/3rd-CPPlayer-netcloudMusic-Muti",
+      "changelog": "Existing upstream release v1.1.1. Catalogued after checking ZIP manifests, sizes and SHA-256; not a security audit.",
+      "apiVersion": 1,
+      "minHostApiVersion": 1,
+      "artifacts": [
+        {
+          "platform": "windows",
+          "arch": "x64",
+          "runtime": "jni",
+          "url": "https://github.com/Aurora-Nasa-1/3rd-CPPlayer-netcloudMusic-Muti/releases/download/v1.1.1/ncm-api-rs-windows-1.1.1.zip",
+          "sha256": "2da4087f5f7fdd565e2da912cda4829f73961af15522a3f301c5465335c04c73",
+          "bytes": 4445258
+        },
+        {
+          "platform": "linux",
+          "arch": "x64",
+          "runtime": "jni",
+          "url": "https://github.com/Aurora-Nasa-1/3rd-CPPlayer-netcloudMusic-Muti/releases/download/v1.1.1/ncm-api-rs-linux-1.1.1.zip",
+          "sha256": "34ca71d5e6ab61861c69afd6d34a3a4006d4d8ebe2e720227adea0be0f519495",
+          "bytes": 4852510
+        },
+        {
+          "platform": "android",
+          "arch": "arm64",
+          "runtime": "jni",
+          "url": "https://github.com/Aurora-Nasa-1/3rd-CPPlayer-netcloudMusic-Muti/releases/download/v1.1.1/ncm-api-rs-android-1.1.1.zip",
+          "sha256": "6a4709fca0dc88e443f999000870048e4262e2f3081666f16b8149b58a152a63",
+          "bytes": 11924362
+        },
+        {
+          "platform": "android",
+          "arch": "armv7",
+          "runtime": "jni",
+          "url": "https://github.com/Aurora-Nasa-1/3rd-CPPlayer-netcloudMusic-Muti/releases/download/v1.1.1/ncm-api-rs-android-1.1.1.zip",
+          "sha256": "6a4709fca0dc88e443f999000870048e4262e2f3081666f16b8149b58a152a63",
+          "bytes": 11924362
+        },
+        {
+          "platform": "android",
+          "arch": "x64",
+          "runtime": "jni",
+          "url": "https://github.com/Aurora-Nasa-1/3rd-CPPlayer-netcloudMusic-Muti/releases/download/v1.1.1/ncm-api-rs-android-1.1.1.zip",
+          "sha256": "6a4709fca0dc88e443f999000870048e4262e2f3081666f16b8149b58a152a63",
+          "bytes": 11924362
+        }
+      ]
+    }
+  ]
+}
