@@ -24,8 +24,15 @@ Only install code from publishers you trust.
 
 The initial entry is the existing `netease-cloudmusic-rs` 1.1.1 release, with
 Windows x64, Linux x64 and Android arm64/armv7/x64 packages. No macOS package is
-published in that release. Artifact metadata and manifests were checked without
-running native code. Runtime/API availability remains the publisher's responsibility.
+published in that release.
+
+It is joined by `kugou-music-rs` 0.1.3, the tagged CI build of
+[kugouMusic-api-cpplayer](https://github.com/Aurora-Nasa-1/kugouMusic-api-cpplayer),
+catalogued for Windows x64, Linux x64 and Android arm64/armv7/x64. That release
+also carries Windows/Linux arm64 packages, which are not listed here yet.
+
+Artifact metadata and manifests were checked without running native code.
+Runtime/API availability remains the publisher's responsibility.
 
 ## Publishing
 
