@@ -6,53 +6,53 @@
       "id": "netease-cloudmusic-rs",
       "kind": "provider",
       "name": "NeteaseCloudMusicApi-RS",
-      "version": "1.1.1",
+      "version": "1.2.1",
       "author": "Aurora-Nasa-1",
-      "description": "Community NetEase Cloud Music provider. Native JNI package; install only if you trust its publisher.",
+      "description": "Community NetEase Cloud Music provider. Native JNI package speaking the kmp-sdk-v1 contract; install only if you trust its publisher.",
       "homepage": "https://github.com/Aurora-Nasa-1/3rd-CPPlayer-netcloudMusic-Muti",
-      "changelog": "Existing upstream release v1.1.1. Catalogued after checking ZIP manifests, sizes and SHA-256; not a security audit.",
+      "changelog": "v1.2.1: Based on kmp-sdk-v1, exports standard NativeSession symbols without reflection; supports 161 operations.",
       "apiVersion": 1,
-      "minHostApiVersion": 1,
+      "minHostApiVersion": 3,
       "artifacts": [
         {
           "platform": "windows",
           "arch": "x64",
           "runtime": "jni",
-          "url": "https://github.com/Aurora-Nasa-1/3rd-CPPlayer-netcloudMusic-Muti/releases/download/v1.1.1/ncm-api-rs-windows-1.1.1.zip",
-          "sha256": "2da4087f5f7fdd565e2da912cda4829f73961af15522a3f301c5465335c04c73",
-          "bytes": 4445258
+          "url": "https://github.com/Aurora-Nasa-1/3rd-CPPlayer-netcloudMusic-Muti/releases/download/v1.2.1/ncm-api-rs-windows-1.2.1.zip",
+          "sha256": "51a23aa19ba4a2946afddf4b73517f2fab18c807b9ca45b90898c40f85830dc5",
+          "bytes": 9805879
         },
         {
           "platform": "linux",
           "arch": "x64",
           "runtime": "jni",
-          "url": "https://github.com/Aurora-Nasa-1/3rd-CPPlayer-netcloudMusic-Muti/releases/download/v1.1.1/ncm-api-rs-linux-1.1.1.zip",
-          "sha256": "34ca71d5e6ab61861c69afd6d34a3a4006d4d8ebe2e720227adea0be0f519495",
-          "bytes": 4852510
+          "url": "https://github.com/Aurora-Nasa-1/3rd-CPPlayer-netcloudMusic-Muti/releases/download/v1.2.1/ncm-api-rs-linux-1.2.1.zip",
+          "sha256": "7cfa079d6bfa71991c5fb1a32bb7169df582c8f2837efa0611d0bb2401a4cdd5",
+          "bytes": 10624800
         },
         {
           "platform": "android",
           "arch": "arm64",
           "runtime": "jni",
-          "url": "https://github.com/Aurora-Nasa-1/3rd-CPPlayer-netcloudMusic-Muti/releases/download/v1.1.1/ncm-api-rs-android-1.1.1.zip",
-          "sha256": "6a4709fca0dc88e443f999000870048e4262e2f3081666f16b8149b58a152a63",
-          "bytes": 11924362
+          "url": "https://github.com/Aurora-Nasa-1/3rd-CPPlayer-netcloudMusic-Muti/releases/download/v1.2.1/ncm-api-rs-android-1.2.1.zip",
+          "sha256": "536e05b7f18842c377db604bf069b5825de3b45497ca0f3014b46deca33b1761",
+          "bytes": 17482660
         },
         {
           "platform": "android",
           "arch": "armv7",
           "runtime": "jni",
-          "url": "https://github.com/Aurora-Nasa-1/3rd-CPPlayer-netcloudMusic-Muti/releases/download/v1.1.1/ncm-api-rs-android-1.1.1.zip",
-          "sha256": "6a4709fca0dc88e443f999000870048e4262e2f3081666f16b8149b58a152a63",
-          "bytes": 11924362
+          "url": "https://github.com/Aurora-Nasa-1/3rd-CPPlayer-netcloudMusic-Muti/releases/download/v1.2.1/ncm-api-rs-android-1.2.1.zip",
+          "sha256": "536e05b7f18842c377db604bf069b5825de3b45497ca0f3014b46deca33b1761",
+          "bytes": 17482660
         },
         {
           "platform": "android",
           "arch": "x64",
           "runtime": "jni",
-          "url": "https://github.com/Aurora-Nasa-1/3rd-CPPlayer-netcloudMusic-Muti/releases/download/v1.1.1/ncm-api-rs-android-1.1.1.zip",
-          "sha256": "6a4709fca0dc88e443f999000870048e4262e2f3081666f16b8149b58a152a63",
-          "bytes": 11924362
+          "url": "https://github.com/Aurora-Nasa-1/3rd-CPPlayer-netcloudMusic-Muti/releases/download/v1.2.1/ncm-api-rs-android-1.2.1.zip",
+          "sha256": "536e05b7f18842c377db604bf069b5825de3b45497ca0f3014b46deca33b1761",
+          "bytes": 17482660
         }
       ]
     },
